@@ -89,7 +89,14 @@ body {
 }
 
 body {
-  background-image: url('fondo.jpg');
+  background-image: url('img/turquesa.jpg');
+   /* Full height */
+   height: 100%; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .form-register {
