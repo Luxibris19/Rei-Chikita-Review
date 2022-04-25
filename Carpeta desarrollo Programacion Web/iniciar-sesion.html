@@ -33,15 +33,16 @@
         </div>
       </nav> 
 
-    <section class="form-register">
-        <h4>Iniciar sesión</h4>
-   
-            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"> 
-            <p><a href="#">¿Olvidaste tu correo electronico?</a></p>
-            <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+      <form action="" method="post" name="Registrarse" id="Registrar.Cuenta">
+        <div class="form-group form-register">
+            <h4>Iniciar sesion</h4>
+            <input type="text" id="Usuario" class="form-control controls" placeholder="Ingrese Su Usuario" required>
+            <p><a href="#">¿Olvidaste tu nombre de usuario?</a></p>
+            <input type="password" id="Contraseña" class="form-control controls" placeholder="Ingrese Su Contraseña" required>
             <p><a href="#">¿Olvidaste tu contraseña?</a></p>
-            <input class="botons" type="submit" value="iniciar" > 
-            <p><a href="registrarte.html">Registrarte</a></p>
-    </section>
+            <input type="submit" class="btn btn-primary botons" value="Ingresar">
+            <p><a href="registrarte.html">¿Aun no tienes una cuenta? Registrate!!</a></p>
+        </div>
+      </form>
 </body>
 </html>

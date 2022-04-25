@@ -33,17 +33,19 @@
           </ul>
         </div>
     </nav> 
-
-        <section class="form-register">
-            <h4>Registrate</h4>
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-            <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-            <input class="botons" type="submit" value="Registrar">
-            <p><a href="iniciar-sesion.html">¿Ya tengo Cuenta?</a></p>
-            </section>
-
+        <form action="" method="post" name="Registrarse" id="Registrar.Cuenta">  
+          <div class="form-group form-register">
+              <h4>Registrate</h4>
+              <input type="text" id="Nombre" class="form-control controls" placeholder="Ingrese su Nombre" required>
+              <input type="text" id="Apellido" class="form-control controls" placeholder="Ingrese su apellido" placeholder="Ingrese su Apellido" required>
+              <input type="email" id="Correo" class="form-control controls" placeholder="Ingrese su Correo Electronico" required>
+              <input type="text" id="Usuario" class="form-control controls" placeholder="Ingrese un nombre para su usuario" required>
+              <input type="password" id="Contraseña" class="form-control controls" placeholder="Ingrese una contraseña" required>
+              <input type="password" id="Confirm-Contraseña" class="form-control controls" placeholder="Ingrese la contraseña nuevamente" required>
+              <input type="checkbox" id="Terminos-Condiciones" class="form-control controls" value="" required>
+              <label for="Terminos-Condiciones">Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></label><br>
+              <input type="submit" class="btn btn-primary botons" value="Registrar">
+              <p><a href="iniciar-sesion.html">¿Ya tienes una Cuenta?</a></p>
+          </div>
 </body>
 </html>

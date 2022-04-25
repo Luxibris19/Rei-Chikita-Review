@@ -23,7 +23,7 @@
                   <ul class="nav navbar-nav">
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="index.vista.usuario.html">Inicio</a></li>
+                        <li><a href="index.vista.admin.html">Inicio</a></li>
                         <li><a href="juego-4.vista.usuario.html">Vista usuario</a></li>
                         <li><a href="juego-4.html">Vista sin registro</a></li>
                       </ul>
@@ -55,10 +55,21 @@
                                                               <span class="fa fa-star fa-3x"></span>
                                                               </div>
                   </div>
+                  <div>
+                    <form>
+                      <label style="margin-top: 25px;"><h4>Escriba el genero o plataforma que desea añadir o eliminar</h4></label>
+                      <input type="text" id="Gen-Cat" class="form-control" style="width: 350px; height: 30px;">
+                      <input type="submit" class="btn btn-primary" value="Agregar" style="margin-top: 10px; margin-right: 15px; background-color: #1C82FB;">
+                      <input type="submit" class="btn btn-primary" value="Eliminar" style="margin-top: 10px; background-color: red;">
+                    </form>
+                  </div>
                 </div>
 
                 <div class="main">
                         <h2>Reseña 1</h2>
+                        <form>
+                          <input type="submit" class="btn btn-primary Eliminar-side" value="Eliminar Reseña" style="background-color: red;">
+                        </form>
                         <h5>Lenin - 03/04/2022 <div class="fakeimg" style="height:60px;"> <div class="star">
                           <span class="fa fa-star fa-3x checked"></span>
                           <span class="fa fa-star fa-3x checked"></span>
@@ -72,6 +83,9 @@
                                                                   Nate es un protagonista memorable para este punto, 5 de 5 estrella.</div>
                         <br>
                         <h2>Reseña 2</h2>
+                        <form>
+                          <input type="submit" class="btn btn-primary Eliminar-side" value="Eliminar Reseña" style="background-color: red;">
+                        </form>
                         <h5>Samuel - 03/04/2022 <div class="fakeimg" style="height:60px;"> <div class="star">
                           <span class="fa fa-star fa-3x checked"></span>
                           <span class="fa fa-star fa-3x checked"></span>
@@ -83,58 +97,6 @@
                                                                     buenos personajes, buen gameplay, aun asi creo que uncharted 3 es el mejor 
                                                                   y es insuperable es ese aspecto, no creo que sea mal juego, en realidad es muy bueno,
                                                                 y un gran cierre a la franquicia.</div>
-                    </div> 
-                    
-                    <div class="row-2">
-                      <div class="column">
-                        
-                      <div class="comment-box-1">  
-                      <h2>Editar Género</h2>
-                      <form action = "#">
-                        <input type="text" name="full_name" placeholder="Nombre del género..."> 
-                        <textarea name="comment" placeholder="Argumento del cambio..."></textarea> 
-                        <div class="row separacion">
-                        <button type="enviar">Agregar</button>  
-                        <button class= "botons" type="submit">Eliminar</button> 
-                      </form>
-                      </div> 
-                      </div> 
-                      </div>  
                     </div>
-        
-            <div class="row-2">
-              <div class="column">
-                
-              <div class="comment-box-2">  
-              <h2>Editar Plataforma</h2>
-              <form action = "#">
-                <input type="text" name="full_name" placeholder="Plataforma..."> 
-                <textarea name="comment" placeholder="Argumento del cambio..."></textarea> 
-                <div class="row separacion">
-                <button type="enviar">Agregar</button>  
-                <button class= "botons" type="submit">Eliminar</button> 
-              </form>
-              </div> 
-              </div> 
-              </div>  
-            </div>
-                  
-               
-              <div class="row-2">
-                  <div class="column">
-                  
-                  <div class="comment-box-3">  
-                  <h2>Eliminar Reseña</h2>
-                  <form action = "#">
-                  <input type="text" name="full_name" placeholder="Nombre del usuario..."> 
-                  <textarea name="comment" placeholder="Argumento del cambio..."></textarea> 
-                  
-                  <button class= "botons" type="submit">Eliminar</button> 
-                  </form>
-                     </div> 
-                  </div> 
-                </div>
-                                       
-              
 </body>
 </html>
