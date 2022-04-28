@@ -87,7 +87,7 @@ body {
   background-color: white;
   padding: 20px;
 }
-
+/* cuerpo de todo el HTML *//***********************************/
 body {
   background-image: url('img/turquesa.jpg');
    /* Full height */
@@ -98,7 +98,7 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
 }
-
+/* css de registrarte y iniciar sesion *//***********************************/
 .form-register {
   width: 400px;
   background: #24303c;
@@ -156,7 +156,7 @@ body {
   font-size: 16px; 
   
 } 
-
+/*estrellas*//***********************************/
 .star{
   position:relative;
 }
@@ -169,7 +169,7 @@ body {
   margin: 0;
   
 }
-
+/*Comentario los juegos*//***********************************/
 .comment-box
 {
   padding: 30px;
@@ -289,7 +289,7 @@ body {
   background-color: #718a8e;
 
 } 
-
+/*comentario de admin 1*//***********************************/
 .comment-box-1
 {
   padding: 30px;
@@ -370,6 +370,7 @@ body {
   background-color: #f47777;
 
 }  
+/*comentario de admin 2*//***********************************/
 .comment-box-2
 {
   padding: 30px;
@@ -450,7 +451,7 @@ body {
   background-color: #f47777;
 
 }  
-
+/*comentario de admin 3*//***********************************/
 .comment-box-3
 {
   padding: 30px;
@@ -514,7 +515,7 @@ body {
 
   
 } 
-
+/*boton eliminar*//***********************************/
 .Eliminar {
     
   border: 0;
