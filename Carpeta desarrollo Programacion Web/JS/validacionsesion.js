@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $("#form1").submit(function(e){
+    $("#iniciarcuenta").on('submit',function(e){
         e.preventDefault();
         let mensajeMostrar = "";
         let entrar = false ; 
 
-        var nombre= $("#nom").val();
-        if (nombre.length <4 || nombre.trim().lenght > 7){
-            mensajeMostrar += "La longitud no es correcta";
+        var nombre= $("#usuario").val();
+        if (nombre.length <4 || nombre.length > 7){
+            mensajeMostrar += "La longitud debe ser entre 4 a 7";
             entrar = true;
         }
         var letraInicial = nombre.charAt(0);
@@ -18,15 +18,14 @@ $(document).ready(function(){
             $("#mensajes").html(mensajeMostrar);
         }
         else{
-            $("#mensajes").html("Formulario enviado");
+            $("#mensajes").html("Sesión Iniciada!!!");
         }
         
     });
-        function esMayucula (letra){
-            return letra == letra.toUpperCase();
         
-        }
    
 });
 
-aa
+function esMayucula (letra){
+    return letra == letra.toUpperCase();
+}

@@ -9,41 +9,44 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  
 
   <link rel="stylesheet" href="estilos.css">
   <title>Iniciar sesion</title>
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Rei-Reviews</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="API.html">Tiendas</a></li>
-              </ul>
-            </li>
+<body> 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Rei-Reviews</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="API.html">Tiendas</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="registrarte.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
-            <li><a href="iniciar-sesion.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesion</a></li>
-          </ul>
-        </div>
-      </nav> 
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="registrarte.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+        <li><a href="iniciar-sesion.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesion</a></li>
+      </ul>
+    </div>
+  </nav> 
 
-      <form action="" method="post" name="Registrarse" id="Iniciar.Cuenta">
-        <div class="form-group form-register">
-            <h4>Iniciar sesion</h4>
-            <input type="text" id="Usuario" class="form-control controls" placeholder="Ingrese Su Usuario" required>
-            <p><a href="#">¿Olvidaste tu nombre de usuario?</a></p>
-            <input type="password" id="Contraseña" class="form-control controls" placeholder="Ingrese Su Contraseña" required>
-            <p><a href="#">¿Olvidaste tu contraseña?</a></p>
-            <input type="submit" class="btn btn-primary botons" value="Ingresar">
-            <p><a href="registrarte.html">¿Aun no tienes una cuenta? Registrate!!</a></p>
-        </div>
-      </form>
+    <form action="" method="post" name="Registrarse" id="iniciarcuenta">
+      <div class="form-group form-register">
+          <h4>Iniciar sesion</h4>
+          <input type="text" id="usuario" class="form-control controls" placeholder="Ingrese Su Usuario" required>
+          <p><a href="#">¿Olvidaste tu nombre de usuario?</a></p>
+          <input type="password" id="Contraseña" class="form-control controls" placeholder="Ingrese Su Contraseña" required>
+          <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+          <input type="submit" class="btn btn-primary botons" value="Ingresar">
+          <p id="mensajes" class="colorLetra"></p>
+          <p><a href="registrarte.html">¿Aun no tienes una cuenta? Registrate!!</a></p>
+      </div>
+    </form>
+    <script src="js/validacionsesion.js"></script>
 </body>
 </html>

@@ -86,13 +86,22 @@
                                                                     para ser usados por los jugadores de shooters tradicionales, muy buen juego.</div>
                     </div> 
                     
-                    <div class="comment-box">
-                      <form action="" method="post" name="Registrarse" id="Reseña-Juego-1">
-                        <h2>Agregar una reseña</h2>
-                        <input type="text" name="full_name" placeholder="Agrega un nombre a tu reseña" class="input-reseña">
-                        <textarea name="comment" placeholder="Escribe tu reseña..."></textarea>
-                        <input type="submit" class="btn btn-primary boton" value="Subir reseña">
+                    <div class="comment-box" >
+                      <h2>Agregar una reseña</h2>
+                      <form action = "#" id="caja">
+                        <input type="text" name="full_name" id="nombre" placeholder="Agrega tu nombre..."> 
+                        <textarea name="comment" id="comentario" placeholder="Escribe tu reseña..."></textarea> 
+                        <div class="row">
+                          <div class="col-4"></div>
+                          <div class="col-4">
+                            <input type="submit" class="btn btn-primary botons-1" value="Enviar comentario">
+                          </div>
+                          <div class="col-4"></div>
+                        
+                      </div>
+                        <p id="mensajes" class="colorLetra"></p>
                       </form>
-                    </div>
+                  </div> 
+                  <script src="js/validacion-juegos1.js"></script>
 </body>
 </html>

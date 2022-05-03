@@ -26,7 +26,7 @@
                         <li><a href="index.vista.admin.html">Inicio</a></li>
                         <li><a href="juego-1.vista.usuario.html">Vista usuario</a></li>
                         <li><a href="juego-1.html">Vista sin registro</a></li>
-                        <li><a href="API.vista.Admin.html">Tiendas</a></li>
+                        <li><a href="API.html">Tiendas</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -58,11 +58,12 @@
                                                               </div>
                   </div>
                   <div>
-                    <form>
+                    <form id="genero">
                       <label style="margin-top: 25px;"><h4>Escriba el genero o plataforma que desea añadir o eliminar</h4></label>
-                      <input type="text" id="Gen-Cat" class="form-control" style="width: 350px; height: 30px;">
+                      <input type="text" id="comentario" class="form-control" style="width: 350px; height: 30px;">
                       <input type="submit" class="btn btn-primary" value="Agregar" style="margin-top: 10px; margin-right: 15px; background-color: #1C82FB;">
                       <input type="submit" class="btn btn-primary" value="Eliminar" style="margin-top: 10px; background-color: red;">
+                       <p id="mensajes" class="colorLetra"></p>
                     </form>
                   </div>
                 </div>
@@ -104,5 +105,6 @@
                                                                     sin que entiendas del todo que es lo que pasa en tu camino,
                                                                     pero no impedirá que lo sigas jugando hasta terminarlo.</div>
                     </div> 
+                    <script src="js/validacionadmin.js"></script>
 </body>
 </html>

@@ -4,51 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registrate</title>     
+    <title>Registrarte</title>
     <link rel="shortcut icon" href="img/rei-chikita.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  
+
   <link rel="stylesheet" href="estilos.css">
-  <title>Registrate</title>
+  <title>Iniciar sesion</title>
 </head>
 <body> 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Rei-Reviews</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="API.html">Tiendas</a></li>
-              </ul>
-            </li>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Rei-Reviews</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="API.html">Tiendas</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="registrarte.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
-            <li><a href="iniciar-sesion.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesion</a></li>
-          </ul>
-        </div>
-    </nav> 
-        <form action="" method="post" name="Registrarse" id="Registrar.Cuenta">  
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="registrarte.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+        <li><a href="iniciar-sesion.html"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesion</a></li>
+      </ul>
+    </div>
+  </nav> 
+        <form  method="POST"  id="registrarcuenta">  
           <div class="form-group form-register">
               <h4>Registrate</h4>
-              <input type="text" id="Nombre" class="form-control controls" placeholder="Ingrese su Nombre" required>
+              <input type="text" id="nombre" class="form-control controls" placeholder="Ingrese su Nombre" required>
               <input type="text" id="Apellido" class="form-control controls" placeholder="Ingrese su apellido" placeholder="Ingrese su Apellido" required>
               <input type="email" id="Correo" class="form-control controls" placeholder="Ingrese su Correo Electronico" required>
               <input type="text" id="Usuario" class="form-control controls" placeholder="Ingrese un nombre para su usuario" required>
               <input type="password" id="Contraseña" class="form-control controls" placeholder="Ingrese una contraseña" required>
               <input type="password" id="Confirm-Contraseña" class="form-control controls" placeholder="Ingrese la contraseña nuevamente" required>
-              <input type="checkbox" id="Terminos-Condiciones" class="form-control controls" value="" required>
-              <label for="Terminos-Condiciones">Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></label><br>
+              
               <input type="submit" class="btn btn-primary botons" value="Registrar">
               <p id="mensajes" class="colorLetra"></p>
               <p><a href="iniciar-sesion.html">¿Ya tienes una Cuenta?</a></p>
+            </form>
 
           </div>
-          <script src="js/validacion-registrarte.js"></script>
+          <script src="js/validacionregistrarte.js"></script>
 </body>
 </html>

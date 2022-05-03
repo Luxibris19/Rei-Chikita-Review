@@ -252,7 +252,7 @@ body {
   border: 1px solid #000;
   outline: 0;
 } 
-.comment-box button {
+.comment-box .botons-1 {
   border: 0;
   padding: 10px 30px;
   background: #86b0b6;
@@ -261,7 +261,7 @@ body {
   color: #fff;
 }
 
-.button {
+.botons-1{
   border: 0;
   padding: 10px 30px;
   background: #86b0b6;
@@ -270,7 +270,7 @@ body {
   color: #fff;
 }
 
-.comment-box-profile button {
+.comment-box-profile .botons-1 {
   border: 0;
   padding: 10px 30px;
   background: #86b0b6;
@@ -279,7 +279,7 @@ body {
   color: #fff;
 }
 
-.edit button {
+.edit .botons {
   border: 0;
   padding: 10px 30px;
   background: #86b0b6;
@@ -288,10 +288,12 @@ body {
   color: #fff;
 }
 
-.comment-box button:hover { 
+.comment-box .botons-1:hover { 
   background-color: #718a8e;
 
 } 
+
+
 /*comentario de admin 1*//***********************************/
 .comment-box-1
 {
@@ -537,8 +539,5 @@ body {
 .row-2
  {
   margin: 0 60px;
-}
+} 
 
-.separacion-top{
-  margin-top: 150px;
-}

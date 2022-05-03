@@ -26,7 +26,7 @@
                         <li><a href="index.vista.usuario.html">Inicio</a></li>
                         <li><a href="juego-1.vista.admin.html">Vista Admin</a></li>
                         <li><a href="juego-1.html">Vista sin registro</a></li>
-                        <li><a href="API.vista.usuario.html">Tiendas</a></li>
+                        <li><a href="API.html">Tiendas</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -91,13 +91,22 @@
                                                                     pero no impedirá que lo sigas jugando hasta terminarlo.</div>
                     </div> 
                     
-                    <div class="comment-box">
-                      <form action="" method="post" name="Registrarse" id="Reseña-Juego-1">
-                        <h2>Agregar una reseña</h2>
-                        <input type="text" name="full_name" placeholder="Agrega un nombre a tu reseña" class="input-reseña">
-                        <textarea name="comment" placeholder="Escribe tu reseña..."></textarea>
-                        <input type="submit" class="btn btn-primary button" value="Subir reseña">
+                    <div class="comment-box" >
+                      <h2>Agregar una reseña</h2>
+                      <form action = "#" id="caja">
+                        <input type="text" name="full_name" id="nombre" placeholder="Agrega tu nombre..."> 
+                        <textarea name="comment" id="comentario" placeholder="Escribe tu reseña..."></textarea> 
+                        <div class="row">
+                          <div class="col-4"></div>
+                          <div class="col-4">
+                            <input type="submit" class="btn btn-primary botons-1" value="Enviar comentario">
+                          </div>
+                          <div class="col-4"></div>
+                        
+                      </div>
+                        <p id="mensajes" class="colorLetra"></p>
                       </form>
-                    </div>
+                  </div> 
+                  <script src="js/validacion-juegos1.js"></script>
 </body>
 </html>

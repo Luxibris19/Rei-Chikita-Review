@@ -51,10 +51,11 @@
                 <div class="main">
                         <div class="comment-box-profile">
                             <h2>Cuentanos sobre ti</h2>
-                            <form action = "#">
-                              <textarea name="comment" placeholder="Habla de ti mismo, que cosas te gustan, que haces actualmente, etc..."></textarea> 
-                              <button type="enviar">Subir descripcion</button>
-                              <button type="enviar">Cambiar/Actualizar perfil</button>
+                            <form action = "#" id="perfil">
+                              <textarea name="comment" id="comentario" placeholder="Habla de ti mismo, que cosas te gustan, que haces actualmente, etc..."></textarea> 
+                              <input type="submit" class="btn btn-primary botons-1" value="Subir descripcion">
+                              <input type="submit" class="btn btn-primary botons-1" value="Cambiar/Actualizar perfil">
+                              <p id="mensajes" class="colorLetra"></p>
                             </form>
                         </div> 
                         <br>
@@ -72,5 +73,6 @@
                                                               son tandivertidos como los anteriores, espero con muchas ansias 
                                                             la secuela.</div>
                     </div> 
+                    <script src="js/validacionperfil.js"></script>
 </body>
 </html>
