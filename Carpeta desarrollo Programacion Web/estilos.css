@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
@@ -27,7 +28,7 @@ body {
 }
 
 
-.card {
+.card { /* Modificar las tarjetas del index de los juegos */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   padding: 50px;
   text-align: center;
@@ -47,16 +48,16 @@ body {
   margin-top: 200px;
 }
 
-.separacion-card{
-  margin-top: 125px;
+.separacion-card{ /* Separacion entre las tarjetas del index */
+  margin-top: 150px;
 }
 
-.separacion-inferior{
+.separacion-inferior{ /* Separacion entre el fotter y las ultimas tarjetas con los ultimos 4 juegos añadidos */
   margin-bottom: 200px;
 }
 
 .pie-de-pag{
-  padding: 75px;
+  padding: 55px;
   text-align: center;
   background: #111111;
 }
