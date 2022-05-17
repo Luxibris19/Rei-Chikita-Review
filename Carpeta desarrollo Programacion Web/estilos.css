@@ -5,6 +5,11 @@
   
 }
 
+.Imagen_Juego {
+  width: 100%;
+  height: 200px;
+}
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -62,14 +67,14 @@ body {
   background: #111111;
 }
 
-.side {
+.side { /* Ni idea de que es, de momento solo cambia añade un borde blanco donde se sobreponen cosas */
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
 
-.fakeimg {
+.fakeimg { /* Recuadro gris donde se sobreponen los datos del juego */
   background-color: #aaa;
   width: 100%;
   padding: 20px;
