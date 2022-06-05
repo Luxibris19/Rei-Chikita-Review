@@ -5,14 +5,15 @@ $(document).ready(function(){
         let entrar = false ; 
 
         var nombre= $("#usuario").val();
-        if (nombre.length <4 || nombre.length > 7){
-            mensajeMostrar += "La longitud debe ser entre 4 a 7";
-            entrar = true;
-        }
+        var clave= $("#Contraseña").val();  
         var letraInicial = nombre.charAt(0);
         if (!esMayucula(letraInicial)){
             mensajeMostrar += "la primera es minuscula<br>";
             entrar= true
+        }
+        if (clave.length <5 || clave.length > 10){
+            mensajeMostrar += "La longitud de la contraseña debe ser entre 5 a 10";
+            entrar = true;
         }
         if (entrar){
             $("#mensajes").html(mensajeMostrar);

@@ -4,8 +4,14 @@ $(document).ready(function(){
         let mensajeMostrar = "";
         let entrar = false ; 
 
-        var nombre= $("#comentario").val();
-        if (nombre.length ==0){
+        var nombre= $("#nombre").val();
+        var comentario= $("#comentario").val();
+        if (nombre.length <4 || nombre.length > 7){
+            mensajeMostrar += "La longitud del usuario debe ser entre 4 a 7";
+            entrar = true;
+        }        
+
+        if (comentario.length ==0){
             mensajeMostrar += "No hay ningun comentario";
             entrar = true;
         } 
